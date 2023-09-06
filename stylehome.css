@@ -19,3 +19,13 @@
   transform: translate(-50%, -50%);
   border-radius: 25px;
 }
+
+#pesquisa{
+  width: 45vw;
+  height: 10vh;
+  background-color: 
+  white;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 5px;
+}
