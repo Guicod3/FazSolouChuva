@@ -4,7 +4,7 @@
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -25,7 +25,8 @@ body {
   border-radius: 25px;
   font-size: 2.5em;
   color: rgb(255, 255, 255);
-  box-shadow: 2px 0px 2px 0px 10px black;
+  box-shadow: 4px 7px 8px 0px #0000001e;
+  text-shadow: 4px 7px 6px #0000003d;
 }
 
 #pesquisa {
@@ -41,13 +42,25 @@ body {
   border: 1px solid rgb(110, 110, 110);
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 #enviar {
   width: 15vw;
-  font-size: 1.5em;
-  border: 2px solid rgb(110, 110, 110);
-  background-color: transparent;
+  font-size: 1em;
+  background-color: #206179;
   margin-top: 10px;
   border-radius: 25px;
   color: white;
   margin: 10px;
+  font-weight: 700;
+  box-shadow: 4px 7px 11px 0px #00000027;
+}
+
+#enviar:hover {
+  background-color: rgba(255, 255, 255, 0.849);
+  color: #185a72;
 }
