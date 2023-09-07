@@ -7,10 +7,15 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background: radial-gradient(#2a6577, #003154);
+  width: 100vw;
+  height: 100vh;
+}
+
 #local {
-  background-color: blue;
+  background-color: #185a72;
   width: 50vw;
-  height: 35vh;
   text-align: center;
   padding: 10px;
   position: absolute;
@@ -18,14 +23,31 @@
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 25px;
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 0px 2px 0px 10px black;
 }
 
-#pesquisa{
+#pesquisa {
   width: 45vw;
-  height: 10vh;
-  background-color: 
-  white;
+  height: 8vh;
+  background-color: #185a72;
   border-radius: 25px;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-indent: 10px;
+  color: white;
+  border: 1px solid rgb(110, 110, 110);
+}
+
+#enviar {
+  width: 15vw;
+  font-size: 1.5em;
+  border: 2px solid rgb(110, 110, 110);
+  background-color: transparent;
+  margin-top: 10px;
+  border-radius: 25px;
+  color: white;
+  margin: 10px;
 }
